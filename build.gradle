@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'io.github.oasisframework'
-version = '1.0.2'
+version = '1.0.3'
 
 repositories {
     mavenCentral()
@@ -15,7 +15,7 @@ repositories {
 dependencies {
     implementation("com.hazelcast:hazelcast-all:3.8.3")
     compileOnly('org.springframework.boot:spring-boot-autoconfigure:2.3.12.RELEASE')
-    implementation("io.github.oasisframework:hazelcast-common-helper:1.0.2")
+    implementation("io.github.oasisframework:hazelcast-common-helper:1.0.3")
 
     implementation 'org.apache.commons:commons-lang3:3.16.0'
 
