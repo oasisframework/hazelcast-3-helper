@@ -65,6 +65,7 @@ public class HazelcastConnection {
         config.setProperty(INVOCATION_TIMEOUT_KEY, INVOCATION_TIMEOUT_VALUE);
         config.getGroupConfig().setName(hazelcastConnectionProperties.getConnectionName());
         config.getGroupConfig().setPassword(hazelcastConnectionProperties.getConnectionPassword());
+        config.setInstanceName(hazelcastConnectionProperties.getInstanceName());
 
         return config;
     }
